@@ -8,6 +8,14 @@ body {
 	box-sizing: border-box;
 }
 
+a {
+	color: currentColor;
+}
+
+svg {
+	fill: currentColor;
+}
+
 header.header {
 	position: fixed;
 	top: 0;
@@ -161,4 +169,8 @@ main.main {
 .de-link-img {
 	display: block;
 	height: 15vh;
+}
+
+.ymh {
+	max-width: 400px;
 }
